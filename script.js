@@ -16,8 +16,10 @@ function makeSound(key) {
       break;
 
     case "d":
-      var hiHat = new Audio('sounds/hi-hat.mp3');
-      hiHat.play();
+      // var hiHat = new Audio('sounds/hi-hat.mp3');
+      // hiHat.play();
+      var crash1 = new Audio('sounds/crash.mp3');
+      crash1.play();
       break;
 
     case "j":
