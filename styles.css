@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+  background-image: url("./img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: "Oswald", sans-serif;
+  color: #FFFFFF;
+  text-shadow: 1px 0 10px #FC0;
+  margin-bottom: 1rem;
+}
+
+.w {
+  background-image: url("./img/left-tom.png");
+}
+
+.a {
+  background-image: url("./img/right-tom.png");
+}
+
+.s {
+  background-image: url("./img/floor-tom.png");
+}
+
+.d {
+  background-image: url("./img/hi-hat.png");
+}
+
+.j {
+  background-image: url("./img/snare.png");
+}
+
+.k {
+  background-image: url("./img/crash.png");
+}
+
+.l {
+  background-image: url("./img/kick.png");
+}
+
+.drum-set {
+  margin: 5% auto;
+}
+
+.drum {
+  border: 8px solid #FFFFFF;
+  border-radius: 20px;
+  font-size: 5rem;
+  font-weight: 900;
+  font-family: "Bebas Neue", sans-serif;
+  color: #000000;
+  text-shadow: 3px 0 #FFFFFF;
+  line-height: 2;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 16px;
+  background-size: cover;
+  background-color: #FFFFFF;
+}
+
+.pressed {
+  box-shadow: 0 3px 6px 0 #FC0;
+  opacity: 0.6;
+}
